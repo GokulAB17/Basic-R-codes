@@ -1,6 +1,6 @@
 #Import mba dataset
 
-mba <- read.csv("C:/Users/Administrator.Gokulbhasi/Desktop/DataScience/mba.csv")
+mba <- read.csv("mba.csv")
 View(mba)
 
 
