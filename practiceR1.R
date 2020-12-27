@@ -1,6 +1,6 @@
 
 #Practice codes
-spdi<- read.csv("C:/Users/Administrator.Gokulbhasi/Desktop/DataScience/Assignments/Q9_a.csv")
+spdi<- read.csv("Q9_a.csv")
 
 skewness(spdi$speed)
 kurtosis(spdi$speed)
@@ -11,7 +11,7 @@ kurtosis(spdi$dist)
 hist(spdi$speed)
 hist(spdi$dist)
 
-spwtprob <- read.csv("C:/Users/Administrator.Gokulbhasi/Desktop/DataScience/Q9_b.csv")
+spwtprob <- read.csv("Q9_b.csv")
 View(spwtprob)
 library(modeest)
 install.packages("modeest")
@@ -22,7 +22,7 @@ library(timeDate)
 kurtosis(spwtprob$SP)
 kurtosis(spwtprob$WT)
 
-crs<- read.csv("C:/Users/Administrator.Gokulbhasi/Desktop/DataScience/Cars.csv")
+crs<- read.csv("Cars.csv")
 View(crs)
 hist(crs$MPG)
 skewness(crs$MPG)
@@ -36,7 +36,7 @@ View(val)
 qqnorm(crs$MPG)
 qqline(crs$MPG)
 
-wc.at <- read.csv("C:/Users/Administrator.Gokulbhasi/Desktop/DataScience/wc-at.csv")
+wc.at <- read.csv("wc-at.csv")
 View(wc.at)
 qqnorm(wc.at$Waist)   
 qqline(wc.at$Waist)
